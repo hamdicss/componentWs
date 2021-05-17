@@ -1,10 +1,10 @@
 import React from 'react'
-import hamdi from './hamdi1.png'
+import hamdi from './hamdi.jpg'
 const ProfilePhoto = () => {
     return (
         <div >
             <div>
-                <img src={hamdi} alt="img"  width="300"
+                <img src={hamdi} alt="img"  width="300" style={{borderRadius:"50%"}}
             height="300" roundedCircle="true"/>
             </div>
 
